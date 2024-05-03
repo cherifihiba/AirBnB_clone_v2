@@ -1,8 +1,8 @@
 .filters {
 	background-color: white;
+	border: 1px solid #DDDDDD;
 	height: 70px;
 	width: 100%;
-	border: 1px solid #DDDDDD;
 	border-radius: 4px;	
 }
 
@@ -10,11 +10,17 @@
 	display: inline-block;
 	vertical-align: middle;
 
-	height: 100%;
 	width: 25%;
+	height: 100%;
 
 	margin-left: 45px;
 	border-right: 1px solid #DDDDDD;
+}
+
+h3 {
+	font-weight: 600;
+	margin-top: 12px;
+	margin-bottom: 5px;	
 }
 
 .amenities {
@@ -25,12 +31,6 @@
     width: 25%;
 
 	margin-left: 45px;
-}
-
-h3 {
-	font-weight: 600;
-	margin-top: 12px;
-	margin-bottom: 5px;	
 }
 
 h4 {
@@ -44,10 +44,10 @@ button {
 	color: #FFFFFF;
 	font-size: 18px;
 	
+	border-style: none;
 	height: 48px;
 	width: 20%;
 	background-color: #FF5A5F;
-	border-style: none;
 	border-radius: 4px;
 
 	float: right;
